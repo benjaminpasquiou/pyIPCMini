@@ -19,7 +19,6 @@ release = __version__
 extensions = ["sphinx.ext.autodoc", "sphinx.ext.autosummary", "sphinx.ext.viewcode", "numpydoc", "nbsphinx", "nbsphinx_link"]
 
 templates_path = ["_templates"]
-# exclude_patterns = []
 exclude_patterns = ["**.ipynb_checkpoints"]
 
 # The suffix(es) of source filenames.
@@ -37,9 +36,7 @@ master_doc = "index"
 Source = "https://github.com/benjaminpasquiou/pyIPCMini"
 Documentation = "https://pyIPCMini.readthedocs.io"
 
-# html_theme = 'alabaster'
 html_theme = "pydata_sphinx_theme"
-# html_static_path = ['_static']
 html_theme_options = {
     "show_nav_level": 0,
     "show_toc_level": 2,
