@@ -21,7 +21,7 @@ Alternatively, you can clone the latest version from github:
 
 ### Python package
 
-For starting using this package, you can see these [useful examples](./notebooks/Examples.ipynb).
+For starting using this package, you can see these [useful examples](https://github.com/benjaminpasquiou/pyIPCMini/blob/main/notebooks/Examples.ipynb).
 
 You can also look into the [package documentation](https://pyIPCMini.readthedocs.io).
 
@@ -31,7 +31,7 @@ For using the application on the command line, to see the help message, you can 
 
     pyIPCMini -h
 
-An example of working command:
+An example of a working command:
 
     pyIPCMini -p "/dev/ttyUSB0" -l "My pump" --show
 
@@ -40,4 +40,4 @@ You then would have to use a combination of *python -m build -- wheel* and *pyth
 
 ## Warning
 
-An ion pump is a sensitive device, and if not used properly it can potentially cause harm to the user, to the device itself, or to other pieces of equipment. This package should only be used by trained operators. Please read Agilent IPCMini's manual and make sure that you can safely operate the pump in manual mode, before using the package for remote control. Please also consult the package's documentation at [https://pyIPCMini.readthedocs.io](https://pyIPCMini.readthedocs.io) before using any of its functionalities. Also, let me reminds you of no-liability statement in the package's [license](./LICENSE).
+An ion pump is a sensitive device, and if not used properly it can potentially cause harm to the user, to the device itself, or to other pieces of equipment. This package should only be used by trained operators. Please read Agilent IPCMini's manual and make sure that you can safely operate the pump in manual mode, before using the package for remote control. Please also consult the package's documentation at [https://pyIPCMini.readthedocs.io](https://pyIPCMini.readthedocs.io) before using any of its functionalities. Also, let me reminds you of no-liability statement in the package's [license](https://github.com/benjaminpasquiou/pyIPCMini/blob/main/LICENSE).
