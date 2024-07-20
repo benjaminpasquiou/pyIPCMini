@@ -12,9 +12,9 @@ You can install this package from PyPI, using the following command:
 
     pip install pyIPCMini
 
-Alternatively, you can install the latest version from github:
+Alternatively, you can clone the latest version from github:
 
-    pip install https://github.com/benjaminpasquiou/pyIPCMini.git
+    git clone https://github.com/benjaminpasquiou/pyIPCMini.git
 
 
 ## Usage
