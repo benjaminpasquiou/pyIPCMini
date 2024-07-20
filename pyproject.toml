@@ -6,11 +6,12 @@ build-backend = "setuptools.build_meta"
 name = "pyIPCMini"
 dynamic = ["version"]
 requires-python = ">=3.7"
-license = { file = "LICENSE" }
+# license = { file = "LICENSE" }
 description = "pyIPCMini is a package to communicate and control via USB/serial the ion pump controller type IPCMini from Agilent."
 authors = [{ name = "Benjamin Pasquiou", email = "benjamin.pasquiou@univ-paris13.fr" }]
 readme = "README.md"
 
+keywords = ["IPCMini", "driver", "ion pump"]
 classifiers = [
     "Development Status :: 3 - Alpha",
     'Intended Audience :: Science/Research',
@@ -39,10 +40,12 @@ dependencies = ["pyserial", "python-dateutil"]
 pyIPCMini = "pyipcmini.scripts.single_measurement:main"
 
 [project.urls]
-Source = "https://github.com/benjaminpasquiou/pyIPCMini"
-Documentation = "https://pyIPCMini.readthedocs.io"
 Homepage = "https://github.com/benjaminpasquiou/pyIPCMini"
+Documentation = "https://pyIPCMini.readthedocs.io"
+Repository = "https://github.com/benjaminpasquiou/pyIPCMini.git"
 Issues = "https://github.com/benjaminpasquiou/pyIPCMini/issues"
+Changelog = "https://github.com/benjaminpasquiou/pyIPCMini/blob/main/CHANGELOG.md"
+
 
 [tool.setuptools.packages.find]
 include = ["pyipcmini*"]
@@ -89,6 +92,7 @@ twine = ">=5.1.1,<5.2"
 build-sdist = "python -m build --sdist"
 build-wheel = "python -m build --wheel"
 publish-test-pypi = "twine upload --repository-url https://test.pypi.org/legacy/ dist/*"
+publish-pypi = "twine upload dist/*"
 
 [tool.pixi.feature.docs.dependencies]
 # pixi add -f docs sphinx=7.3
