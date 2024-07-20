@@ -42,7 +42,7 @@ class IonPumpDic:
             17: "2 diode",
             18: "0.2 diode 1250 Gauss",
             19: "0.2 diode 800 Gauss",
-        }
+        },
     )
 
     dic_win = MappingProxyType(
@@ -72,7 +72,7 @@ class IonPumpDic:
             "I measured": "811",
             "Pressure": "812",
             "Label": "890",
-        }
+        },
     )
 
 
@@ -89,7 +89,7 @@ class IonPumpDics:
             "Unit pressure": IonPumpDic.dic_pressure_unit,
             "Device number": IonPumpDic.dic_device_number,
             "Win": IonPumpDic.dic_win,
-        }
+        },
     )
 
 
@@ -98,7 +98,7 @@ class IonPumpMinMaxDics:
     """Class of min/max values dictionnaries for Agilent IPCMini ion pump controller."""
 
     dic_max_values = MappingProxyType(
-        {"LABEL_LENGTH": 10, "SETPOINT_CURRENT": 1.0e-5, "PROTECT_CURRENT": 10000, "VOLTAGE": 7000, "POWER": 40, "UNIT_PRESSURE": 2, "ADDRESS": 31, "BAUDRATE": 4, "MODE": 3}
+        {"LABEL_LENGTH": 10, "SETPOINT_CURRENT": 1.0e-5, "PROTECT_CURRENT": 10000, "VOLTAGE": 7000, "POWER": 40, "UNIT_PRESSURE": 2, "ADDRESS": 31, "BAUDRATE": 4, "MODE": 3},
     )
 
     dic_min_values = MappingProxyType({"SETPOINT_CURRENT": 1.0e-10, "PROTECT_CURRENT": 1, "VOLTAGE": 3000, "POWER": 10, "UNIT_PRESSURE": 0, "ADDRESS": 0, "BAUDRATE": 1, "MODE": 0})

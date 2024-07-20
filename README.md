@@ -14,7 +14,8 @@ You can install this package from PyPI, using the following command:
 
 Alternatively, you can install the latest version from github:
 
-    pip install https://github.com/XXXXX.zip
+    pip install https://github.com/benjaminpasquiou/pyIPCMini.git
+
 
 ## Usage
 
