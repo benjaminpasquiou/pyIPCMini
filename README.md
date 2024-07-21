@@ -8,7 +8,7 @@ This is an unofficial package for the [IPCMini](https://www.agilent.com/en/produ
 
 ## Installation
 
-You can install this package from PyPI, using the following command:
+You can install this package from *PyPI*, using the following command:
 
     pip install pyIPCMini
 
@@ -16,6 +16,7 @@ Alternatively, you can clone the latest version from github:
 
     git clone https://github.com/benjaminpasquiou/pyIPCMini.git
 
+This package relies on the *pyserial* package for the actual communication with the hardware. Check it out on [PyPI](https://pypi.org/project/pyserial).
 
 ## Usage
 

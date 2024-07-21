@@ -34,14 +34,14 @@ master_doc = "index"
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
 Source = "https://github.com/benjaminpasquiou/pyIPCMini"
-Documentation = "https://pyIPCMini.readthedocs.io"
+PyPI = "https://pypi.org/project/pyIPCMini/"
 
 html_theme = "pydata_sphinx_theme"
 html_theme_options = {
     "show_nav_level": 0,
     "show_toc_level": 2,
     "header_links_before_dropdown": 4,
-    "external_links": [{"name": "GitHub", "url": Source}, {"name": "PyPI", "url": Documentation}],
+    "external_links": [{"name": "GitHub", "url": Source}, {"name": "PyPI", "url": PyPI}],
     "icon_links": [
         {
             "name": "GitHub",
@@ -51,7 +51,7 @@ html_theme_options = {
         },
         {
             "name": "PyPI",
-            "url": Documentation,
+            "url": PyPI,
             "icon": "fa-solid fa-download",
             "type": "fontawesome",
         },
