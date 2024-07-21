@@ -1,0 +1,7 @@
+sphinx
+numpydoc
+nbsphinx
+pydata-sphinx-theme
+nbsphinx-link
+python-dateutil
+docutils==0.20.*
