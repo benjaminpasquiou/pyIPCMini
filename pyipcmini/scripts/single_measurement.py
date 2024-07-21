@@ -19,7 +19,7 @@ import pyipcmini
 def save_measured_values(pressure: float, current: float, path: str = ".") -> None:
     """Save values in csv file."""
     filename = path + "/" + "pump_readings.csv"
-    with Path(filename).open("w", newline="") as file:
+    with Path(filename).open("w", newline="", encoding="utf-8") as file:
         writer = csv.writer(file)
         writer.writerow(["Pressure", pressure])
         writer.writerow(["Current", current])
