@@ -5,7 +5,7 @@
 
 Welcome to pyIPCMini's documentation!
 =====================================
-pyIPCMini is a package to communicate and control via USB/serial the ion pump controller type IPCMini from Agilent.
+pyIPCMini is a python package to communicate and control via USB/serial the ion pump controller type IPCMini from Agilent.
 
 It has been tested using the RS232 protocol, with the pump's DB9 connector hooked to a USB-serial converter based on FTDI chip.
 
@@ -51,3 +51,8 @@ Indices and tables
 
 * :ref:`genindex`
 * :ref:`modindex`
+
+.. meta::
+    :google-site-verification: 4gZFsZkehRbSV_5mGTztsY85jeeiXe6d2xbqPa0GbsM
+    :description lang=en: pyIPCMini is a python package to communicate and control via USB/serial the ion pump controller type IPCMini from Agilent.
+    :keywords: IPCMini, ion pump
